@@ -62,6 +62,7 @@
     font-family: monospace;
     font-size: 24px;
     margin: 0 .4em;
+    opacity: 99%;
 }
 
 .recent-posts-buttons a:hover{
@@ -208,6 +209,6 @@
 
 @media (max-width: 420px){
     .home-top-banner{
-        margin-bottom: -80px;
+        margin-bottom: -70px;
     }
 }
