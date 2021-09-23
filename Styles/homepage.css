@@ -72,7 +72,7 @@
 /* Transparent */
 
 .transparent{
-    opacity: 60%;
+    opacity: 60% !important;
 }
 
 /* Slides */
@@ -110,6 +110,7 @@
     white-space: nowrap;
     overflow: hidden;
     max-width: 75px;
+    opacity: 60%;
 }
 
 .slide-box-blog-title{
@@ -176,6 +177,10 @@
 
     .home-bottom-banner{
         background-attachment: scroll;
+    }
+
+    .recent-posts-buttons a:hover{
+        font-weight: normal;
     }
 }
 
