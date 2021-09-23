@@ -1,0 +1,21 @@
+/* About columns */
+
+.about-columns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.about-columns p{
+    width: 290px;
+    margin: 1.5rem;
+}
+
+/* About page bottom banner */
+
+.about-bottom-banner{
+    width: 100%;
+    margin-top: 2em;
+}

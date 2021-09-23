@@ -1,0 +1,77 @@
+/* Contact boxes */
+
+.contact-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-family: 'EB Garamond', serif;
+}
+
+.contact-info, .contact-form{
+    margin: 2em;
+    width: 34rem;
+    height: 34rem;
+}
+
+.contact-info p{
+    margin-bottom: .3rem;
+}
+
+.contact-info iframe{
+    max-width: 100%;
+    height: 90%;
+}
+
+/* Contact form */
+
+form {
+    padding: 2em;
+    color: #0d0d0d;
+    font-size: 18px;
+    margin-top: -20px;
+}
+
+label {
+    display: block;
+    margin-top: 2rem;
+}
+
+input, textarea {
+    width: 100%;
+    margin-top: 2px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+textarea{
+    height: 5rem;
+    resize: none;
+}
+
+form button {
+    margin: 2rem auto;
+    padding: 4px 28px; /**/
+}
+
+/* Contact validation */
+
+.form-error {
+    position: absolute;
+    display: none;
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 2px;
+    font-family: 'Lato', sans-serif;
+}
+
+.form-success {
+    text-align: center;
+    display: none;
+    color: #9DCBB1;
+    margin: 0 auto;
+    margin-top: .5rem;
+    margin-bottom: -3.6rem;
+    font-family: 'EB Garamond', serif;
+    font-size: 22px;
+}
