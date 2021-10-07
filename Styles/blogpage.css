@@ -56,6 +56,12 @@
     text-decoration: underline;
 }
 
+/* Hover animation fix*/
+
+.nav-menu li::after{
+    height: .5px;
+}
+
 /* Date edit */
 
 .page-title p{
