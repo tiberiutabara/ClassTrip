@@ -26,7 +26,8 @@ async function fetchBlog() {
                                     <div class="small-line"></div>
                                 </div>
 
-                                <img class="blog-page-banner" src="${blog._embedded["wp:featuredmedia"][0].link}" alt="${blog.title.rendered}">
+                                <img class="blog-page-banner" src="${blog._embedded["wp:featuredmedia"][0].source_url
+                            }" alt="${blog.title.rendered}">
 
                                 <div class="blog-text-area">
                                 ${blog.content.rendered}

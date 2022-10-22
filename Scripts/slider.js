@@ -60,7 +60,8 @@ async function getBlogs() {
     
         for (let i = 0; i < blogs.length; i++) {
             resultsContainer.innerHTML += `<div class="slide-box"> <a href="blogpage.html?id=${blogs[i].id}"> 
-                                            <img src="${blogs[i]._embedded["wp:featuredmedia"][0].link}" alt="${blogs[i].title.rendered}" />
+                                            <img src="${blogs[i]._embedded["wp:featuredmedia"][0].source_url
+                                        }" alt="${blogs[i].title.rendered}" />
                                             <p class="slide-box-blog-date transparent">${blogs[i].date}</p>
                                             <p class="slide-box-blog-title">${blogs[i].title.rendered}</p>
                                             </a></div>`;

@@ -30,7 +30,8 @@ const displayBlogs = (blogs) => {
     const htmlString = blogs
         .map((blog) => {
             return `<div class="post"> <a href="blogpage.html?id=${blog.id}"> 
-            <img src="${blog._embedded["wp:featuredmedia"][0].link}" alt="${blog.title.rendered}" />
+            <img src="${blog._embedded["wp:featuredmedia"][0].source_url
+        }" alt="${blog.title.rendered}" />
             <h2 class="post-title">${blog.title.rendered}</h2>
             <p class="post-date">${blog.date}</p>
             </a></div>`;
