@@ -47,7 +47,7 @@ const resultsContainer = document.querySelector(".recent-posts-slides");
 
 async function getBlogs() {
 
-    var url = "https://tiberiutab.online/wp-json/wp/v2/posts?_embed&per_page=4&?order=desc&page=" + pageNum;
+    var url = "https://178.62.85.205/wp-json/wp/v2/posts?_embed&per_page=4&?order=desc&page=" + pageNum;
 
     try{
         const response = await fetch(url);
