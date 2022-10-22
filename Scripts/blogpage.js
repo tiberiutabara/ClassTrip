@@ -4,7 +4,7 @@ const params = new URLSearchParams(queryString);
 
 const id = params.get("id");
 
-const url = "https://tiberiutab.online/wp-json/wp/v2/posts/" + id +"?_embed";
+const url = "https://178.62.85.205/wp-json/wp/v2/posts/" + id +"?_embed";
 
 const container = document.querySelector(".blogpage");
 

@@ -4,7 +4,7 @@ function displayError(message = "Unknown error") {
     return `<div class="error">${message}</div>`;
 }
 
-var url = "https://tiberiutab.online/wp-json/wp/v2/posts?_embed&?order=desc";
+var url = "https://178.62.85.205/wp-json/wp/v2/posts?_embed&?order=desc";
 
 const resultsContainer = document.querySelector(".blog-posts");
 
