@@ -46,7 +46,7 @@ getBlogs();
 const viewMore = document.querySelector('.view-more-blogs');
 
 function removeUrlParam(){
-    url = "https://tiberiutab.online/wp-json/wp/v2/posts?_embed&?order=desc";
+    url = "https://178.62.85.205/wp-json/wp/v2/posts?_embed&?order=desc";
     getBlogs();
 
     viewMore.innerHTML = 'View More';
@@ -54,7 +54,7 @@ function removeUrlParam(){
 }
 
 function addUrlParam(){
-    url = "https://tiberiutab.online/wp-json/wp/v2/posts?_embed&?order=desc&per_page=100";
+    url = "https://178.62.85.205/wp-json/wp/v2/posts?_embed&?order=desc&per_page=100";
     getBlogs();
 
     viewMore.innerHTML = 'View Less';
